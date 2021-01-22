@@ -139,6 +139,16 @@ Again, you can check the log stream of the Flask app at `https://<app-name>.scm.
 <img src='resources/log.png' width='70%' />
 </div>
 
+If you want `locust` test, run the below command:
+```bash
+~/FlaskML.udacity$> make test
+```
+<div>
+<img src='resources/locust_result.png' width='70%' />
+</div>
+
+
+
 Additionally, you can check out [this official document](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) to validate your configurations.
 
 ## Futureworks
