@@ -8,7 +8,7 @@ install:
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
-
+	locust -f locustfile.py --headless -t 1m
 
 lint:
 	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
